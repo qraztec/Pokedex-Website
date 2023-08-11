@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,17 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@font-face {
+  font-family: 'Pokemon-Solid';
+  src: local('Pokemon-Solid'), url('Pokemon-Solid.woff') format('woff');
+}
+
+h1 {
+  font-family: 'Pokemon-Solid';
+    font-weight: 200;
+    color: yellow;
+    -webkit-text-stroke: 2px blue;
+    
 }
